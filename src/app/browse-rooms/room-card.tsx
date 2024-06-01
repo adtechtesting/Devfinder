@@ -14,9 +14,8 @@ import {
 import { GithubIcon } from "lucide-react"
 import { Splittags, Taglist } from "@/components/tagslist"
 import { Button } from "@/components/ui/button"
-import { Prisma, PrismaClient } from "@prisma/client";
+import {  Room } from "@prisma/client";
 
-const prisma = new PrismaClient();
 
 function safeString(value: any): string {
     if (typeof value === "string") {
@@ -29,7 +28,7 @@ function safeString(value: any): string {
 }
 
 
- export function RoomCard({room}:{room:Prisma.Room}){
+ export function RoomCard({room}:{room:Room}){
   return (
    <Card>
   <CardHeader>
