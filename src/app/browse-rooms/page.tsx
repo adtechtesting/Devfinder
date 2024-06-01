@@ -34,7 +34,7 @@ export default async function Home({searchParams}:{
           <SearchBar></SearchBar>
         </div>
      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        {rooms.map((room) => {
+        {rooms.map((room:any) => {
           return <RoomCard key={room.id} room={room} />;
         })}
       </div>
