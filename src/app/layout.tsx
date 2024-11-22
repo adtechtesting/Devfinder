@@ -25,7 +25,7 @@ export default function RootLayout({
         <NextTopLoader></NextTopLoader>
           <Header>
           </Header>
-          <div className="container mx-auto">
+          <div className=" mx-auto">
                       {children}
 
           </div>

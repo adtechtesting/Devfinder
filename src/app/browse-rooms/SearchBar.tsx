@@ -56,14 +56,14 @@ export const SearchBar = () => {
                     placeholder="Filter rooms by keywords, such as typescript, next.js, python"
                   />
                 </FormControl>
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <div className="absolute inset-y-0 left-0 pl-2 pb-3 flex items-center pointer-events-none ">
                   <Search className="text-gray-400" />
                 </div>
                 <FormMessage />
               </FormItem>
             )}
           />
-          <Button type="submit" className="mr-2"><SearchIcon></SearchIcon>Search</Button>
+          <Button type="submit" className="mr-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-indigo-600 hover:to-purple-600 text-white"><SearchIcon></SearchIcon>Search</Button>
            {params.get("search") &&(
             <Button variant="link" onClick={()=>{
               form.setValue("search",""),
