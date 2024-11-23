@@ -53,7 +53,7 @@ export function CreateRoomForm() {
 
   return (
     <div className="relative">
-      {/* Decorative gradient card background */}
+    
       <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-indigo-500/5 rounded-lg -m-4 p-4" />
 
       <Form {...form}>
@@ -102,7 +102,7 @@ export function CreateRoomForm() {
                   />
                 </FormControl>
                 <FormDescription className="text-gray-500 dark:text-gray-400">
-                  Provide details about what you're working on
+                  Provide details about what you re working on
                 </FormDescription>
                 <FormMessage className="text-red-500" />
               </FormItem>
@@ -150,7 +150,7 @@ export function CreateRoomForm() {
                   />
                 </FormControl>
                 <FormDescription className="text-gray-500 dark:text-gray-400">
-                  Add technologies you're using (comma-separated)
+                  Add technologies you re using (comma-separated)
                 </FormDescription>
                 <FormMessage className="text-red-500" />
               </FormItem>

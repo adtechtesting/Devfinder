@@ -1,5 +1,7 @@
 it is p2p platform where users can create room , share thier screen and talk with video sharing and find other dev to code together and share the github repo where user find the issue together with other dev .
 
+![alt text](image.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
