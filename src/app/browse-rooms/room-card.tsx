@@ -56,7 +56,7 @@ export function RoomCard({ room }: { room: Room }) {
           className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-indigo-600 hover:to-purple-600 text-white font-medium"
           asChild
         >
-          <Link href={`/rooms/${room.id}`}>View Details</Link>
+          <Link href={`/rooms/${room.id}`}>Join Room</Link>
         </Button>
       </CardFooter>
     </Card>

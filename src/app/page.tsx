@@ -6,7 +6,7 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-900">
       <div className="relative isolate px-6 pt-14 lg:px-8">
-        {/* Background gradient effects */}
+     
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
           <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-purple-500 to-indigo-600 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem] animate-pulse" 
             style={{
@@ -17,7 +17,7 @@ const LandingPage = () => {
 
         <div className="mx-auto max-w-6xl py-12">
           <div className="text-center space-y-8">
-            {/* Hero Section */}
+            
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl animate-fade-in">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600">
@@ -32,10 +32,10 @@ const LandingPage = () => {
               </p>
             </div>
 
-            {/* Feature Cards */}
+      
            
 
-            {/* CTA Section */}
+          
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 href="/browse-rooms"

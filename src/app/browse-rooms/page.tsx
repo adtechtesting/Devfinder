@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import { unstable_noStore } from "next/cache";
-import { Code2, Users, Video, Github } from 'lucide-react';
+
 import { Button } from "@/components/ui/button";
 import { SearchBar } from "./SearchBar";
 import { RoomCard } from "./room-card";

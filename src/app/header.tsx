@@ -104,16 +104,9 @@ export function Header() {
           <Link href="/" className="flex items-center gap-3 mr-8 group">
             <div className="relative">
               <div className="absolute -inset-2 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg opacity-20 group-hover:opacity-30 blur transition-opacity duration-300" />
-              <Image
-                src="/icon.png"
-                width="40"
-                height="40"
-                alt="Bugfinder logo"
-                className="rounded-lg relative"
-              />
             </div>
             <span className="hidden sm:inline text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600">
-              Bugfinder
+              Devfinder
             </span>
           </Link>
 
