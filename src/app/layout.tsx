@@ -9,8 +9,8 @@ import NextTopLoader from 'nextjs-toploader';
 const inter = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PAIR-PROGRAMMER",
-  description: "An application to help with pair code with other developer",
+  title: "Devfinder",
+  description: "An application where developers can code together",
 };
 
 export default function RootLayout({
